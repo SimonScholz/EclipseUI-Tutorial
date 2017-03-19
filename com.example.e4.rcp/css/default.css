@@ -1,0 +1,33 @@
+Text, Label {
+	font: 'Arial' 15px bold;
+	color: #FF9900;
+	background-color: lime;
+}
+
+Checkbox {
+	check-color: yellow;
+	center-color: gray;
+	color: yellow;
+	background-color: black;
+}
+
+#CustomId {
+	background-color: black;
+}
+
+.MPartStack, CTabFolder {
+	swt-tab-renderer: url('bundleclass://com.example.e4.rcp/com.example.e4.rcp.renderer.CustomTabFolderRenderer');
+	background-color: white;
+}
+
+.MPart {
+	background-color: white;
+}
+
+CTabItem {
+	background-color: white;
+}
+
+CTabItem:selected {
+	color: rgb(0, 132, 180);
+}
